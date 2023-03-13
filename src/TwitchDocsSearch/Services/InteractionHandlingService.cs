@@ -42,7 +42,8 @@ namespace TwitchDocsSearch.Services
 
         public Task StopAsync(CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            _interactions.Dispose();
+            return Task.CompletedTask;
         }
 
         private async Task OnInteractionAsync(SocketInteraction interaction)

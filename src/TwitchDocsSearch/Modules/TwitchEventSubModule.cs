@@ -7,9 +7,7 @@ namespace TwitchDocsSearch.Modules
         [Group("eventsub", "Get information about specific sections of the Twitch EventSub API.")]
         public class TwitchEventSubModule : InteractionModuleBase<SocketInteractionContext>
         {
-            [SlashCommand("link", "Get a link to the Twitch EventSub API documentation.")]
-            public Task GetLinkAsync()
-                => RespondAsync(DocsConstants.EventSubUrl);
+
         }
     }
 }
