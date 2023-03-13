@@ -18,13 +18,16 @@ using var host = Host.CreateDefaultBuilder(args)
         });
         services.AddSingleton(new InteractionServiceConfig 
         { 
+            LogLevel = Discord.LogSeverity.Verbose,
             DefaultRunMode = RunMode.Async
         });
 
+        services.AddSingleton<HttpClient>();
         services.AddSingleton<DiscordSocketClient>();
         services.AddSingleton<InteractionService>();
         services.AddHostedService<DiscordStartupService>();
         services.AddHostedService<InteractionHandlingService>();
+        services.AddHostedService<TwitchDocsDownloader>();
     })
     .Build();
 
