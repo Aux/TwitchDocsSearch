@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwitchDocsSearch", "src\TwitchDocsSearch\TwitchDocsSearch.csproj", "{F070B8C5-832E-4260-8418-83F67B81D061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchDocsSearch.Core", "src\TwitchDocsSearch.Core\TwitchDocsSearch.Core.csproj", "{5F94152D-ECD1-4742-B3A1-C759B9C8C3DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F070B8C5-832E-4260-8418-83F67B81D061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F070B8C5-832E-4260-8418-83F67B81D061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F070B8C5-832E-4260-8418-83F67B81D061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F070B8C5-832E-4260-8418-83F67B81D061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F94152D-ECD1-4742-B3A1-C759B9C8C3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F94152D-ECD1-4742-B3A1-C759B9C8C3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F94152D-ECD1-4742-B3A1-C759B9C8C3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F94152D-ECD1-4742-B3A1-C759B9C8C3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12FC3419-58B2-48E3-883C-7F83B183EFEA}
+	EndGlobalSection
+EndGlobal
